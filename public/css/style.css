@@ -1,0 +1,17 @@
+h1{
+  color: maroon;
+}
+
+body {
+  text-align: center;
+
+}
+form {
+  background-color: lightgrey;
+  opacity: .8;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: auto;
+  
+}
