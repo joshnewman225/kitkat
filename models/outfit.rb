@@ -1,6 +1,10 @@
 require 'net/http'
 require 'rexml/document'
-require './occasions/casual/casual.rb'
+require_relative './occasions/casual/casual.rb'
+require_relative './occasions/very_fancy/veryfancy.rb'
+require_relative './occasions/night_out/nightout.rb'
+require_relative './occasions/office_work/officework.rb'
+
 class Outfit
   attr_accessor :zipcode, :sex, :occasion, :temperature, :city, :region, :country, :condition, :temperature
   
@@ -19,5 +23,7 @@ class Outfit
   end
 end
 
-outfit1 = Casual.new
-puts outfit1.outfits
+#outfit1 = Casual.new
+#puts outfit1.outfits[:outfit1]
+#puts ""
+#puts outfit1.outfits[:outfit2]

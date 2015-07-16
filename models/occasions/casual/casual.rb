@@ -16,7 +16,8 @@ class Casual
       :temp_low => "51",
       :temp_high => "120",
       :image => "images/casualsummer_men_2.jpg",
-      :outfit => ["striped colorful tank top", "beachy waterproof bathing stuit shorts", "brown/ black flip flops"       ],
+      :outfit => ["striped colorful tank top", "beachy waterproof bathing stuit shorts", "brown/ black flip flops"]
+      },
     :outfit3 => {
       :name => "casualwintermen1",
       :gender => "male",
@@ -66,7 +67,6 @@ class Casual
          :outfit => ["white buttoned down blouse", "grey wool infinity scarf ", "light brown light zip up leather jacket", "black skinny jeans", "high grey boots"]
          }
       }
-    }
   end
 end
 
