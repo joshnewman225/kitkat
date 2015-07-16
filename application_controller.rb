@@ -4,9 +4,12 @@ Bundler.require
 class MyApp < Sinatra::Base
 
   
-#  get '/' do
-#    erb :index
-#  end
+  get '/' do
+    erb :index
+  end
+  get '/outfit' do 
+    erb :outfit
+  end
   post '/outfit' do
     #stuff goes here
     puts params
