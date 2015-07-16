@@ -1,6 +1,6 @@
 require 'net/http'
 require 'rexml/document'
-
+require './occasions/casual/casual.rb'
 class Outfit
   attr_accessor :zipcode, :sex, :occasion, :temperature, :city, :region, :country, :condition, :temperature
   
@@ -17,5 +17,7 @@ class Outfit
     @temperature = xml.elements['//yweather:condition'].attributes['temp']
     @degrees = xml.elements['//yweather:units'].attributes['temperature']
   end
-
 end
+
+outfit1 = Casual.new
+puts outfit1.outfits
