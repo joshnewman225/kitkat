@@ -1,5 +1,6 @@
 require 'net/http'
 require 'rexml/document'
+require 'pry'
 require_relative './occasions/casual/casual.rb'
 require_relative './occasions/very_fancy/veryfancy.rb'
 require_relative './occasions/night_out/nightout.rb'
@@ -29,14 +30,17 @@ class Outfit
 #      outfit1 = 
 #    else
     end
-    outfit1.outfits.each {|specific, information|
-      if (sex==info.values_at("gender"))&&(@temperature>=info.values_at("temp_low"))&&(@temperature<=info.values_at("temp_high"))
+    outfit1.outfits.each_value do |information|
+      if (sex==information[:gender])
+        #&&(@temperature>=information[:temp_low])&&(@temperature<=information[:temp_high]))
         @final_outfit = information
       end
-      }
+    end
   end
 end
+#outfit = Outfit.new(10003, "female", "casual")
 
+  #puts outfit1.outfits[:outfit2]
 #outfit1 = Casual.new
 #puts outfit1.outfits[:outfit1]
 #puts ""
