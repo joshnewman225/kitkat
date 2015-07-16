@@ -2,13 +2,14 @@
 <html>
  <head>
   <meta charset="UTF-8">
-  <title>dog's are the coolest</title>
-  <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+  <title>Your Outfit</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
  </head>
  <body>
   <h1>Outfit</h1>
-   <p>You live in <%=@outfit1.zipcode%>.
-     <br> You are a <%=@outfit1.sex%>. 
-     <br> You need an outfit for <%=@outfit1.occasion%> . </p>
- </body>
+   <div>Forcast for <%=@outfit1.city%> (<%=@outfit1.zipcode%>), <%=@outfit1.region%> <%=@outfit1.country%>.
+     <br> <%=@outfit1.condition%> at <%=@outfit1.temperature%> F. <br>
+     <br> You are a <%=@outfit1.sex%>, looking for an outfit to wear at (a) <%=@outfit1.occasion%> event.
+   </div>
+  </body>
 </html>

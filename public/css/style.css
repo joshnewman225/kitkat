@@ -1,19 +1,28 @@
 h1{
-  color: black;
+  color: white;
   font-family:;
 }
-
+h3{
+  color: white;
+}
 body {
   text-align: center;
 background-image: url("http://live-wallpaper.net/ipad/img/app/v/i/vintage20bike20bike20ipad20wallpaper20hd_4a1299da1cbf2a19ea216fd3a0401214_raw.jpg");
   background-size: 1400px 1000px;
 }
-form {
-  background-color: lightgrey;
+form{
+     background-color: white;
   opacity: .8;
     width: 300px;
     padding: 25px;
-    border: 25px solid navy;
+    border: 25px;
     margin: auto;
-  
+}
+div {
+     background-color: lightgrey;
+  opacity: .8;
+    width: 300px;
+    padding: 25px;
+    border: 25px;
+    margin: auto;
 }
