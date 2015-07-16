@@ -2,7 +2,7 @@ require 'bundler'
 Bundler.require
 
 class MyApp < Sinatra::Base
-
+require_relative 'models/outfit.rb'
   
   get '/' do
     erb :index
