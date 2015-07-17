@@ -26,9 +26,10 @@ class Outfit
       outfit1 = Casual.new
     elsif occasion == 'night out'
       outfit1 = Night_Out.new
-#    elsif occasion == 'office work'
-#      outfit1 = 
-#    else
+    elsif occasion == 'very fancy'
+      outfit1 =  Very_Fancy.new
+    elsif occasion == 'office work'
+      outfit1 = Office_Work.new
     end
     outfit1.outfits.each_value do |information|
       if (sex==information[:gender])&&(@temperature.to_i>information[:temp_low].to_i)&&(@temperature.to_i<information[:temp_high].to_i)
