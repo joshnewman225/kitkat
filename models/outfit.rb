@@ -31,8 +31,7 @@ class Outfit
 #    else
     end
     outfit1.outfits.each_value do |information|
-      if (sex==information[:gender])
-        #&&(@temperature>=information[:temp_low])&&(@temperature<=information[:temp_high]))
+      if (sex==information[:gender])&&(@temperature.to_i>information[:temp_low].to_i)&&(@temperature.to_i<information[:temp_high].to_i)
         @final_outfit = information
       end
     end
