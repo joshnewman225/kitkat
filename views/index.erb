@@ -9,13 +9,14 @@
    <h1>InstaFit</h1>
    <h3>Please Enter Your Information</h3>
   <form method="POST" action="/outfit">
-Zipcode
-<input type="text" name="zipcode" placeholder="Current Zipcode">
+<input type="text" name="zipcode" placeholder="Current Zipcode"><br>
+    <a href="http://maps.huge.info/zip.htm" target="_blank"><font size="2">Don't know your zipcode?</font></a>
 <br><br>
-<input type="radio" name="sex" value="male" checked>Male
-<input type="radio" name="sex" value="female">Female
-<br><br>
-    Occasion <select name="occasion">
+    <input type="radio" name="sex" value="male" checked><font color="blue">Male</font>
+    <input type="radio" name="sex" value="female"><font color="red">Female</font>
+  <br>
+  <br> <select name="occasion">
+  <option value="" disabled selected>Occasion</option>
   <option value="casual">Casual</option>
   <option value="night out">Night Out</option>
   <option value="office work">Ofice/Work</option>

@@ -11,8 +11,8 @@
      <br> <%=@outfit1.condition%> at <%=@outfit1.temperature%> F. <br>
      <br> You are a <%=@outfit1.sex%>, looking for an outfit to wear at (a) <%=@outfit1.occasion%> event.
      <br> You should wear something similar to: <br><br><u><%=@outfit1.final_outfit[:name]%></u><br>
-     <br> <%=@outfit1.final_outfit[:outfit]%><br>
-     <br> <img src="/casualsummer_men_1.jpg">
+     <br> <%=@outfit1.final_outfit[:outfit].join(" - ")%><br>
+     <br> <img src="<%=@outfit1.final_outfit[:image]%>">
      <br> This outfit can be worn when the temperature low is <%=@outfit1.final_outfit[:temp_low]%> and the temperature high is <%=@outfit1.final_outfit[:temp_high]%>.
    </div>
   </body>
