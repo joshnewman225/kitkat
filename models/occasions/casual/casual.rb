@@ -15,8 +15,14 @@ class Casual
       :gender => "male",
       :temp_low => "51",
       :temp_high => "120",
+<<<<<<< HEAD
       :image => "http://www.fashionboxx.net/wp-content/uploads/2012/07/hmprod-e1342973894412.jpeg",
       :outfit => ["striped colorful tank top", "beachy waterproof bathing stuit shorts", "brown/ black flip flops"       ],
+=======
+      :image => "images/casualsummer_men_2.jpg",
+      :outfit => ["striped colorful tank top", "beachy waterproof bathing stuit shorts", "brown/ black flip flops"]
+      },
+>>>>>>> aae50ea1e015cdc95a04a4c7d29015fcc02d7c77
     :outfit3 => {
       :name => "casualwintermen1",
       :gender => "male",
@@ -66,7 +72,6 @@ class Casual
          :outfit => ["white buttoned down blouse", "grey wool infinity scarf ", "light brown light zip up leather jacket", "black skinny jeans", "high grey boots"]
          }
       }
-    }
   end
 end
 
