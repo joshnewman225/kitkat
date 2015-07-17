@@ -7,7 +7,7 @@ class Office_Work
       :gender => "female",
       :temp_low => "0",
       :temp_high => "120",
-      :image => "images/officework_women_1.jpeg",
+      :image => "http://ww.shelikespurple.com/.a/6a00d8341c77ee53ef017d3e2ff88a970c-pi",
       :outfit => ["navy blue long loose long sleeved dress", "brown belt", "tan high heels", "brown leather purse"]
       },
     :outfit2 => {
@@ -15,7 +15,7 @@ class Office_Work
       :gender => "female",
       :temp_low => "0",
       :temp_high => "120",
-      :image => "images/officework_women_2.jpeg",
+      :image => "https://s-media-cache-ak0.pinimg.com/236x/88/82/34/8882342f0c5a0b63344182e5c033f451.jpg",
       :outfit => ["white blouse", "grey blazer", "grey long semi-tight skirt", "tan heels", "thin silver belt"]
       },
     :outfit3 => {
@@ -23,7 +23,7 @@ class Office_Work
       :gender => "male",
       :temp_low => "0",
       :temp_high => "120",
-      :image => "officework_men_1.jpg",
+      :image => "http:/ww.shuperb.co.uk/blog/wp-content/uploads/2015/04/3021018-slide-what-if-you-could-beta-test-clothes.jpg",
       :outfit => ["light blue collared buttoned down long sleeved shirt", "black tie", "black belt", "navy blue pants", "black dress shoes","black breifcase"]
       },
     :outfit4 => {

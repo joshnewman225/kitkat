@@ -2,21 +2,27 @@
 h1{
   color: white;
   font-family:;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px black;
+  font-size: 600%;
 }
 h3{
   color: white;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px black;
+  font-size: 300%;
+}
+h5{
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 125%;
 }
 body {
   text-align: center;
-background-image: url("http://static.hdw.eweb4.com/media/wallpapers_dl/1/131/1303365-vintage-bike-background.jpg");
-  background-size: 1050px 609px;
+background-image: url("http://cdn.tripwiremagazine.com/wp-content/uploads/2012/06/grungy-faded-fabric-texture.jpg");
   font-family: Inconsolata;
 }
 form{
      background-color: white;
-  opacity: .8;
+  opacity: 0.8;
     width: 300px;
     padding: 25px;
     border: 25px;
@@ -24,10 +30,11 @@ form{
 }
 div {
      background-color: white;
-  opacity: .8;
+  opacity: 1;
     width: 400px;
     padding: 25px;
     border: 25px;
     margin: auto;
     font-family: Inconsolata;
+
 }
